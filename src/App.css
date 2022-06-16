@@ -34,20 +34,31 @@
 }
 
 .my-balance {
+  background: #EC755D;
   margin-left: 20px;
   height: 88px;
-  width: 55px;
 }
 
 .my-balance-p1 {
   background: #EC755D;
   font-size: 15px;
+  font-family: DM sans, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
 }
 
 .my-balance-p2 {
   background: #EC755D;
   font-size: 24px;
+  line-height: 1px;
+  font-family: DM sans, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #FFFFFF;
 }
+
+
 
 
 
