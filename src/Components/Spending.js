@@ -44,14 +44,14 @@ export default function Spending() {
           </div>
         </div>
         
-        <div>
-            <div>
-                <p></p>
-                <p></p>
+        <div className='month-container'>
+            <div className='month-container-left'>
+                <p className='month-p1'></p>
+                <p className='month-p2'></p>
             </div>
-            <div>
-                <p></p>
-                <p></p>
+            <div className='month-container-right'>
+                <p className='month-p3'></p>
+                <p className='month-p4'></p>
             </div>
         </div>
 
