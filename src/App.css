@@ -1,17 +1,56 @@
 .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 * {
   background: #F8E9DD;
 }
 
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Balance Component Styling  */
 
-.balance-container
+.balance-container {
+  height: 97px;
+  width: 343px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 16px;
+  margin-right: 16px;
+  border-radius: 10px;
+  background: #EC755D;
+  margin-top: 67px;
+}
+
+.balance-img {
+  background: #EC755D;
+}
+
+.my-balance {
+  background: #EC755D;
+}
+
+.my-balance-p1 {
+  background: #EC755D;
+  font-family: DM sans, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.my-balance-p2 {
+  background: #EC755D;
+}
 
 
 

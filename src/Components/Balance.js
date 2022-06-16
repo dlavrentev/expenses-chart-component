@@ -8,7 +8,7 @@ export default function Balance() {
             <p className='my-balance-p1'>My balance</p>
             <p className='my-balance-p2'>$921.48</p>
         </div>
-        <img src={BalanceLogo} width='60' height='40'></img>
+        <img className='balance-img' src={BalanceLogo} width='60' height='40'></img>
     </div>
   )
 }
