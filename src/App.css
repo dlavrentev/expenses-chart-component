@@ -23,8 +23,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-left: 16px;
-  margin-right: 16px;
   border-radius: 10px;
   background: #EC755D;
   margin-top: 67px;
@@ -32,24 +30,23 @@
 
 .balance-img {
   background: #EC755D;
+  margin-right: 24px;
 }
 
 .my-balance {
-  background: #EC755D;
+  margin-left: 20px;
+  height: 88px;
+  width: 55px;
 }
 
 .my-balance-p1 {
   background: #EC755D;
-  font-family: DM sans, sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 15px;
-  line-height: 20px;
-  color: #FFFFFF;
 }
 
 .my-balance-p2 {
   background: #EC755D;
+  font-size: 24px;
 }
 
 
