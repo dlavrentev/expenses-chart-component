@@ -58,7 +58,15 @@
   color: #FFFFFF;
 }
 
+/* Spending Component Styling  */
 
+.spending-container {
+  width: 343px;
+  height: 421px;
+  background: #FFFBF6;
+  border-radius: 10px;
+  margin-top: 16px;
+}
 
 
 
