@@ -4,7 +4,7 @@ export default function Spending() {
   return (
     <div className='spending-container'>
         
-        <p>Spending - Last 7 Days</p>
+        <p className='spending-seven'>Spending - Last 7 Days</p>
         
         <div className='chart-container'>
           
