@@ -99,6 +99,16 @@
 }
 
 
+.month-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 305px;
+  align-items: center;
+  margin-top: 30px;
 
+}
 
-
+.month-container-left {
+  
+}
