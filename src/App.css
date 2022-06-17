@@ -85,6 +85,8 @@ p {
   font-size: 24px;
   line-height: 31px;
   color: #382314;
+  position: relative;
+  left: -15px;
 }
 
 .chart-container {
@@ -92,9 +94,10 @@ p {
   width: 303px;
   height: 177px;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: flex-end;
   border-bottom: 2px solid #F8E9DD;
+  margin-top: 30px;
 }
 
 
@@ -119,7 +122,8 @@ p {
 .money-container {
   width: 33px;
   height: 150px;
-  background: black;
+  background: #EC755D;
+  border-radius: 3px;
 }
 
 
@@ -127,7 +131,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 305px;
+  width: 303px;
   align-items: center;
 }
 
