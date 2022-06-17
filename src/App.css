@@ -66,7 +66,28 @@
   background: #FFFBF6;
   border-radius: 10px;
   margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.chart-container {
+  display: flex;
+  width: 303px;
+  height: 177px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  border: solid black 1px;
+}
+
+.money-container {
+  width: 33px;
+  height: 150px;
+  background: black;
+}
+
 
 
 
