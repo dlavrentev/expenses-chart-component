@@ -254,7 +254,7 @@ p {
   .chart-container {
     position: relative;
     display: flex;
-    width: 303px;
+    width: 460px;
     height: 177px;
     flex-direction: row;
     justify-content: space-between;
@@ -284,7 +284,7 @@ p {
   
   
   .money-container {
-    width: 33px;
+    width: 50px;
     height: 150px;
     background: #EC755D;
     border-radius: 3px;
@@ -295,33 +295,41 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 303px;
+    width: 460px;
     align-items: center;
   }
   
   .month-container-right {
-    margin-top: 15px;
+    margin-top: 40px;
+  }
+
+  .month-container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
   
   .month-p1 {
     position: relative;
-    top: 25px;
+    top: 60px;
+
   }
-  
+
+
   .month-p1, .month-p4 {
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    text-align: right;
+    font-size: 18px;
+    line-height: 23px;
     color: #92857A;
   }
   
   .month-p2 {
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 39px;
+    font-size: 48px;
+    line-height: 62px;
     color: #382314;
   }
   
@@ -331,10 +339,13 @@ p {
     top: 13px;
     font-style: normal;
     font-weight: 700;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 23px;
     text-align: right;
     color: #382314;
   }
-
+  
+  .month-p4 {
+    text-align: right;
+  }
 }
