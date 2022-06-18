@@ -75,7 +75,7 @@ p {
 }
 
 .spending-container > :not(marquee), .chart-container > :not(marquee), .day-container > :not(.money-container), .month-container > :not(marquee), .month-container-left > :not(marquee), .month-container-right > :not(marquee)  {
-  background: #FFFBF6;
+  background: none;
 }
 
 
@@ -90,6 +90,7 @@ p {
 }
 
 .chart-container {
+  position: relative;
   display: flex;
   width: 303px;
   height: 177px;
@@ -97,7 +98,8 @@ p {
   justify-content: space-between;
   align-items: flex-end;
   border-bottom: 2px solid #F8E9DD;
-  margin-top: 30px;
+  top: 25px;
+  margin-top: 20px;
 }
 
 
