@@ -138,6 +138,7 @@ p {
 
 
 
+
 .month-container {
   display: flex;
   flex-direction: row;
@@ -307,7 +308,8 @@ p {
     border-radius: 5px;
   }
 
-  .money-detail1 {
+  .money-detail {
+    visibility: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -326,7 +328,7 @@ p {
     margin-left: -12.5px;
     margin-right: -12.5px;
   }
-  
+
   
   .month-container {
     display: flex;
