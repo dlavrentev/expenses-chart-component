@@ -248,7 +248,9 @@ p {
     line-height: 42px;
     color: #382314;
     position: relative;
-    left: -30px;
+    left: -60px;
+    margin-top: 50px;
+    top: 5px;
   }
   
   .chart-container {
@@ -262,6 +264,7 @@ p {
     border-bottom: 2px solid #F8E9DD;
     top: 25px;
     margin-top: 20px;
+    padding-bottom: 20px;
   }
   
   
@@ -297,6 +300,8 @@ p {
     justify-content: space-between;
     width: 460px;
     align-items: center;
+    position: relative;
+    top: -20px;
   }
   
   .month-container-right {
