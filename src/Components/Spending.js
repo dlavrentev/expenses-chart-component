@@ -9,43 +9,43 @@ export default function Spending() {
         <div className='chart-container'>
           
           <div className='day-container'>
-            <div className='money-detail'></div>
+            <div className='money-detail1'></div>
             <div className='money-container'></div>
             <p>mon</p>
           </div>
           
           <div className='day-container'>
-            <div className='money-detail'></div>
+            <div className='money-detail2'></div>
             <div className='money-container'></div>
             <p>tue</p>
           </div>
           
           <div className='day-container'>
-            <div className='money-detail'></div>
+            <div className='money-detail3'></div>
             <div className='money-container'></div>
             <p>wed</p>
           </div>
           
           <div className='day-container'>
-            <div className='money-detail'></div>
+            <div className='money-detail4'></div>
             <div className='money-container'></div>
             <p>thu</p>
           </div>
           
           <div className='day-container'>
-            <div className='money-detail'></div>
+            <div className='money-detail5'></div>
             <div className='money-container'></div>
             <p>fri</p>
           </div>
           
           <div className='day-container'>
-            <div className='money-detail'></div>
+            <div className='money-detail6'></div>
             <div className='money-container'></div>
             <p>sat</p>
           </div>
           
           <div className='day-container'>
-            <div className='money-detail'></div>
+            <div className='money-detail7'></div>
             <div className='money-container'></div>
             <p>sun</p>
           </div>
