@@ -3,6 +3,9 @@ import React from 'react'
 
 export default function Spending() {
 
+
+
+  
 function showDetails(e) {
   e.target.style.visibility = "visible";
 }
